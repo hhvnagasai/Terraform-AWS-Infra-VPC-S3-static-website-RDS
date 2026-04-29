@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Variables (secrets)
+*.tfvars
+*.tfvars.json
+
+# AWS credentials
+.aws/
+
+# Keys
+*.pem
+*.key
+
+# OS junk
+.DS_Store
+Thumbs.db
